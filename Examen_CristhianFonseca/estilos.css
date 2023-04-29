@@ -1,0 +1,53 @@
+﻿.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+body {
+    background-color:coral;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.suboptions {
+    display: none;
+}
+
+.reports:hover + .suboptions {
+    display: block;
+}
+
+.suboptions a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.suboptions a:hover {
+    background-color: #555;
+}
+/* ocultar opciones de reportes */
+.reportes {
+    display: none;
+}
+
+/* mostrar opciones de reportes al posicionar el mouse sobre "Reportes" */
+#menu:hover .reportes {
+    display: block;
+}
