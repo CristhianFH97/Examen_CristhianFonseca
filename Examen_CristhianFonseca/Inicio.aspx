@@ -20,11 +20,12 @@
                 <li class="submenu">
                     <a>Reportes</a>
                     <ul>
-                        <li><a href="reporteUsuarios.aspx">Reporte de Usuarios</a></li>
-                        <li><a href="reporteMascotas.aspx">Reporte de Mascotas</a></li>
-                        <li><a href="reporteCitas.aspx">Reporte de Control de Citas</a></li>
+                        <li><a href="reporteUsuarios.aspx" target="_blank">Reporte de Usuarios</a></li>
+                        <li><a href="reporteMascotas.aspx" target="_blank">Reporte de Mascotas</a></li>
+                        <li><a href="reporteCitas.aspx" target="_blank">Reporte de Control de Citas</a></li>
                     </ul>
                 </li>
+                <li><a href="UsuariosEdicion.aspx" target="_blank">Editar Usuarios</a></li>
                 <li><a href="login.aspx">Salir</a></li>
             </ul>
         </div>

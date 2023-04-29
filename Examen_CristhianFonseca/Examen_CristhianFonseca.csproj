@@ -75,6 +75,7 @@
     <Content Include="reporteCitas.aspx" />
     <Content Include="reporteMascotas.aspx" />
     <Content Include="reporteUsuarios.aspx" />
+    <Content Include="UsuariosEdicion.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +122,13 @@
     </Compile>
     <Compile Include="reporteUsuarios.aspx.designer.cs">
       <DependentUpon>reporteUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosEdicion.aspx.cs">
+      <DependentUpon>UsuariosEdicion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuariosEdicion.aspx.designer.cs">
+      <DependentUpon>UsuariosEdicion.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
